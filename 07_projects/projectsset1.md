@@ -71,3 +71,16 @@ form.addEventListener('submit', function(e){
 })
 
 ```
+
+## Project 3
+
+```Javascript
+const clock = document.querySelector('#clock');
+
+//isme time hamesha miliseconds m hota h aur iska syntax remeber krke rkhna h kyunki aksar glti hoti h
+setInterval(function() {
+  let date = new Date();
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000)
+
+```
